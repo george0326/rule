@@ -1,4 +1,4 @@
-name:  EmbyPremiere
+name: EmbyPremiere
 desc: 构建伪认证服务器mb3admin.com
 
 http:
