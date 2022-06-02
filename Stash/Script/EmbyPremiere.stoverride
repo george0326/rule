@@ -14,4 +14,4 @@ http:
 script-providers:
   emby:
     url: https://subweb.oss-cn-hongkong.aliyuncs.com/Script/embyPremiere.js
-    interval: 131072
+    interval: 86400
