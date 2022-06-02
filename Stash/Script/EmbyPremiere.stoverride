@@ -1,5 +1,6 @@
 name:  EmbyPremiere
 desc: 构建伪认证服务器mb3admin.com
+
 http:
   mitm:
     - 'mb3admin.com'
@@ -9,6 +10,7 @@ http:
       type: response
       require-body: true
       timeout: 10
+
 script-providers:
   emby:
     url: https://subweb.oss-cn-hongkong.aliyuncs.com/Script/embyPremiere.js
