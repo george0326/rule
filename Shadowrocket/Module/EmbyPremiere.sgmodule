@@ -1,0 +1,8 @@
+#!name= EmbyPremiere
+#!desc= 构建伪认证服务器mb3admin.com
+
+[Script]
+EmbyPremiere = type=http-response,script-path=https://raw.githubusercontent.com/george0326/eb1-script/main/EmbyPremiere.js,pattern=^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice,max-size=131072,requires-body=true,timeout=10,script-update-interval=0,enable=true
+
+[MITM]
+hostname = %APPEND% mb3admin.com
